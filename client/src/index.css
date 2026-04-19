@@ -1,0 +1,15 @@
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: 'Segoe UI', sans-serif; background: #0f0f1a; color: #e0e0e0; }
+.container { max-width: 900px; margin: 0 auto; padding: 20px; }
+.btn { padding: 10px 20px; border: none; border-radius: 8px; cursor: pointer; font-size: 14px; font-weight: 600; transition: 0.2s; }
+.btn-primary { background: #6c63ff; color: white; }
+.btn-primary:hover { background: #5a52d5; }
+.btn-danger { background: #e74c3c; color: white; }
+.btn-danger:hover { background: #c0392b; }
+.card { background: #1a1a2e; border-radius: 12px; padding: 20px; margin: 10px 0; border: 1px solid #2a2a4a; }
+.input { width: 100%; padding: 10px 14px; border-radius: 8px; border: 1px solid #2a2a4a; background: #12122a; color: #e0e0e0; font-size: 14px; margin: 6px 0; }
+.input:focus { outline: none; border-color: #6c63ff; }
+.nav { background: #1a1a2e; padding: 16px 30px; display: flex; justify-content: space-between; align-items: center; border-bottom: 1px solid #2a2a4a; }
+.nav h2 { color: #6c63ff; }
+.error { color: #e74c3c; font-size: 13px; margin: 6px 0; }
+.badge { background: #6c63ff22; color: #6c63ff; padding: 4px 10px; border-radius: 20px; font-size: 12px; }
